@@ -1,0 +1,80 @@
+[
+  {
+    "name": "pullMode",
+    "type": "select",
+    "label": "抽卡类型",
+    "options": [
+      "单抽",
+      "十连"
+    ],
+    "default": "单抽"
+  },
+  {
+    "name": "character1ResourcePolicy",
+    "type": "select",
+    "label": "角色活动祈愿资源策略",
+    "options": [
+      "只使用纠缠之缘",
+      "使用原石和纠缠之缘",
+      "使用创世结晶、原石、纠缠之缘"
+    ],
+    "default": "只使用纠缠之缘"
+  },
+  {
+    "name": "character2ResourcePolicy",
+    "type": "select",
+    "label": "角色活动祈愿-2资源策略",
+    "options": [
+      "只使用纠缠之缘",
+      "使用原石和纠缠之缘",
+      "使用创世结晶、原石、纠缠之缘"
+    ],
+    "default": "只使用纠缠之缘"
+  },
+  {
+    "name": "weaponResourcePolicy",
+    "type": "select",
+    "label": "武器活动祈愿资源策略",
+    "options": [
+      "只使用纠缠之缘",
+      "使用原石和纠缠之缘",
+      "使用创世结晶、原石、纠缠之缘"
+    ],
+    "default": "只使用纠缠之缘"
+  },
+  {
+    "name": "standardResourcePolicy",
+    "type": "select",
+    "label": "常驻祈愿资源策略",
+    "options": [
+      "只使用相遇之缘",
+      "使用原石和相遇之缘",
+      "使用创世结晶、原石、相遇之缘"
+    ],
+    "default": "只使用相遇之缘"
+  },
+  {
+    "name": "skipAnimation",
+    "type": "checkbox",
+    "label": "跳过抽卡动画",
+    "default": false
+  },
+  {
+    "name": "resultSettleDelayMs",
+    "type": "input-text",
+    "label": "延迟关闭抽卡结果展示（毫秒）",
+    "default": "2500"
+  },
+  {
+    "name": "animationTimeoutMs",
+    "type": "input-text",
+    "label": "跳过抽卡动画超时（毫秒）",
+    "default": "45000"
+  },
+  {
+    "name": "returnTimeoutMs",
+    "type": "input-text",
+    "label": "返回祈愿页超时（毫秒）",
+    "default": "15000"
+  }
+]
